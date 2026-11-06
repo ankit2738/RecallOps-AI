@@ -1,0 +1,37 @@
+.env
+agent_config.yaml
+
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+backend/data/*.db
+backend/data/*.db-*
+
+frontend/node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+.DS_Store
+*.log
+*.pid
+submission/*.zip
+
+# All environment secrets
+.env.*
+!.env.example
+**/agent_config.yaml
+*.pem
+*.key
+
+# Local databases
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+
+# Generated duplicate submission copy
+submission/RecallOps_AI_Submission/
+
+# Archives
+*.zip
