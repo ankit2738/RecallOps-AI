@@ -12,11 +12,14 @@ class FakeMemory:
     def __init__(self, memories=None):
         self.memories = memories or []
 
-    def recall(self, *args, **kwargs):
-        return {"status": "success", "memories": self.memories}
-
-
-class MemoryMustNotBeCalled:
+    
+    
+    
+    chinarrrrrr
+    
+    
+    
+    
     def recall(self, *args, **kwargs):
         raise AssertionError("memory recall must not run when memory_enabled is false")
 
