@@ -8,6 +8,11 @@ from backend.app.services.llm_service import LLMService
 from backend.app.config import Settings
 
 
+
+cinarrrrrr
+
+
+
 class FakeMemory:
     def __init__(self, memories=None):
         self.memories = memories or []
